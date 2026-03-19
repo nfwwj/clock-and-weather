@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>clock</title>
-    <script src="index.js" defer></script>
+    <script type="module" src="clock.js"></script>
+    
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
-        <div id="time"></div>
-        <div id="date"></div>
+        <div id="time-date-container">
+            <div id="time">00:00:00</div>
+            <div id="date">00-00-00</div>
+        </div>
+        <div id="weather"> 
+            <div id="city">City, Country</div>
+            <div id="weathericon">
+                <img src="./weather icons/others.png" alt="Weather Icon">
+            </div>
+                <div id="weathercondition">Weather</div>
+                <div id="temp">Temp</div>
+                <div id="feelslike">Feels like</div>
+                <div id="humidity">Humidity</div>
+                <div id="lastupdated">Last updated: --:--:--</div>
+        </div>
     </div>
 </body>
 </html>

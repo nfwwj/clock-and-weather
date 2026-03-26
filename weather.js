@@ -1,6 +1,6 @@
 import getSilentLocation from './location.js'
 const API_key = "<YOUR_API_KEY>"
-const key = {API_KEY}
+const key = API_key
 
 
 async function getWeather(){
